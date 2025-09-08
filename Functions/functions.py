@@ -1,11 +1,11 @@
 #defining a function
 
-def average(a, b, c):
+def average(a, b, c):   # a, b, c are parameters
     d = (a + b +c)/3.0
     print(d)
 
 #calling the function and passing values to the function
-average(5, 4, 1)
+average(5, 4, 1)  # 5, 4, 1 are arguments
 average(1, 2, 3)
 
 o1 = average(5, 4, 1)
