@@ -1,7 +1,7 @@
-'''Write a decorator logger that prints "Function is being called" before
-the function runs. Use it to decorate a function say_hello() that prints
-"Hello!"
-'''
+ 1. '''Write a decorator logger that prints "Function is being called" before
+       the function runs. Use it to decorate a function say_hello() that prints
+       "Hello!"
+    '''
 def logger(func):
     def wrapper():
         print("Function is being called")
@@ -16,9 +16,9 @@ def say_hello():
 say_hello()
 
 
-'''Write a decorator timer that calculates how long a function takes to execute.
-Test it with a function that sums numbers from 1 to 1,000,000.
-'''
+2. '''Write a decorator timer that calculates how long a function takes to execute.
+      Test it with a function that sums numbers from 1 to 1,000,000.
+   '''
 
 from time import time
 def timer(func):
