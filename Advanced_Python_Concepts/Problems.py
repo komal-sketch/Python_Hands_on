@@ -18,9 +18,9 @@ def say_hello():
 say_hello()
 
 
-'''Write a decorator timer that calculates how long a function takes to execute.
-Test it with a function that sums numbers from 1 to 1,000,000.
-'''
+2. '''Write a decorator timer that calculates how long a function takes to execute.
+      Test it with a function that sums numbers from 1 to 1,000,000.
+   '''
 
 from time import time
 def timer(func):
